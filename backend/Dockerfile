@@ -12,6 +12,7 @@ RUN apk add --no-cache \
     libpng-dev \
     libjpeg-turbo-dev \
     freetype-dev \
+    icu-dev \
     postgresql-dev \
     postgresql-client \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
@@ -24,6 +25,7 @@ RUN apk add --no-cache \
     bcmath \
     gd \
     xml \
+    intl \
     && rm -rf /var/cache/apk/*
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
