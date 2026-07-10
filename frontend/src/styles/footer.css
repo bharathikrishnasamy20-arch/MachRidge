@@ -1,0 +1,62 @@
+footer.bg-dark {
+  background: var(--dark) !important;
+  color: var(--white);
+}
+
+footer.bg-dark h5,
+footer.bg-dark h6 {
+  color: var(--white);
+  font-family: var(--font-heading);
+}
+
+footer.bg-dark h5.fw-bold span {
+  color: var(--accent) !important;
+}
+
+footer.bg-dark .text-white-50 {
+  color: rgba(255,255,255,0.55) !important;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+footer.bg-dark .text-white-50 a,
+footer.bg-dark a.text-white-50 {
+  color: rgba(255,255,255,0.55) !important;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+footer.bg-dark .text-white-50 a:hover,
+footer.bg-dark a.text-white-50:hover {
+  color: var(--accent) !important;
+  padding-left: 4px;
+}
+
+footer.bg-dark .d-flex.gap-3 a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  background: rgba(255,255,255,0.06);
+  color: rgba(255,255,255,0.55) !important;
+  font-size: 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+footer.bg-dark .d-flex.gap-3 a:hover {
+  background: var(--accent);
+  color: var(--white) !important;
+  transform: translateY(-3px);
+  padding-left: 0;
+}
+
+footer.bg-dark hr {
+  border-color: rgba(255,255,255,0.08) !important;
+}
+
+footer.bg-dark .list-unstyled.text-white-50 i {
+  color: var(--accent);
+  width: 20px;
+}

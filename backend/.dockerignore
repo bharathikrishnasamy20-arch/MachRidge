@@ -1,0 +1,14 @@
+.env
+.git
+.gitignore
+.gitattributes
+node_modules/
+public/build/
+public/hot
+storage/
+tests/
+.editorconfig
+.phpunit.cache/
+.phpunit.result.cache
+*.md
+composer.lock

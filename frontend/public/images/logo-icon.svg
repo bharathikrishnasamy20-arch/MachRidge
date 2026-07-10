@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B5CAD"/>
+      <stop offset="100%" style="stop-color:#094a91"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF8C00"/>
+      <stop offset="100%" style="stop-color:#e67e00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer gear ring -->
+  <path d="M40 5 L43 14 L52 14 L47 23 L56 28 L47 33 L52 42 L43 42 L40 51 L37 42 L28 42 L33 33 L24 28 L33 23 L28 14 L37 14 Z"
+        fill="url(#primaryGrad)" />
+  <!-- Inner circle -->
+  <circle cx="40" cy="28" r="12" fill="#fff" />
+  <!-- M mountain shape inside gear -->
+  <path d="M31 36 L36 22 L40 30 L44 22 L49 36 Z" fill="url(#accentGrad)" />
+</svg>
