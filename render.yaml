@@ -2,7 +2,7 @@ services:
   - type: web
     name: machridge-backend
     runtime: docker
-    repo: https://github.com/Prashanth-1411/MachRidge.git
+    repo: https://github.com/bharathikrishnasamy20-arch/MachRidge.git
     plan: free
     rootDir: backend
     healthCheckPath: /api/health

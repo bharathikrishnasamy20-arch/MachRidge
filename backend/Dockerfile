@@ -12,10 +12,11 @@ RUN apk add --no-cache \
     libpng-dev \
     libjpeg-turbo-dev \
     freetype-dev \
-    mysql-client \
+    postgresql-client \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) \
-    pdo_mysql \
+    pdo_pgsql \
+    pgsql \
     mbstring \
     exif \
     pcntl \
